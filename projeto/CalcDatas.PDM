@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Calculadora de horas
+
+
+[Package|Calculadora de horas|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\Package
+
+[Package|Calculadora de horas|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Calculadora de horas|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Calculadora de horas|Files Found]
+
+[Package|Calculadora de horas|Files Released]
+
+[Package|Calculadora de horas|Missing Dependency Information]
+
+[Package|Calculadora de horas|Out-of-Date Dependency Information]
+
+[Package|Calculadora de horas|Files Added]
+
+[Package|Calculadora de horas|Files Removed]
+
+[Package|Calculadora de horas|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\Documents and Settings\Administrador\Desktop\Icones\calculadora de hora\projeto\CalcDatas.exe=Yes
+
+[Package|Calculadora de horas|Configure Registry Files]
+Applicable=No
+
+[Package|Calculadora de horas|Configure Remote Servers]
+Applicable=No
+
+[Package|Calculadora de horas|Install Locations]
+C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\CalcDatas.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Documents and Settings\Administrador\Desktop\Icones\calculadora de hora\projeto\CalcDatas.exe=$(AppPath)
+
+[Package|Calculadora de horas|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\CalcDatas.exe=Yes
+C:\Documents and Settings\Administrador\Desktop\Icones\calculadora de hora\projeto\CalcDatas.exe=Yes
+
+[Package|Calculadora de horas|Distribution]
+Type=single
+Size=
+Title=Calculadora de Horas
+
+[Package|Calculadora de horas|IconGroups]
+Group0=Calculadora de Horas
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Calculadora de horas|Calculadora de Horas]
+Icon1=CalcDatas.exe
+Title1=Calculadora de Horas
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Calculadora de horas|Package]
+PackageFolder=C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\Package
+ProjectFolder=C:\Documents and Settings\Administrador\Desktop\Icones\calculadora de hora\projeto
+ServerSideCab=
+File1=C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\Package\setup.exe
+File2=C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\Package\Setup.Lst
+File3=C:\Documents and Settings\Administrador\Desktop\calculadora de hora\projeto\Package\CalcDatas.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
